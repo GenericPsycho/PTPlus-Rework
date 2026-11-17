@@ -19,3 +19,11 @@ else
 	draw_sprite(sprite_index, image_index, x, y);
 	shader_reset();
 }
+
+if ((obj_mainmenu.shownoise && global.gameN[saveID].palette == 17) || (obj_mainmenu.showswap))
+{
+	shader_set(global.Pal_Shader);
+	pal_swap_set(spr_menutv_palette, obj_mainmenu.showswap ? 3 : 2, false);
+	draw_sprite(layerspr, image_index, x, y);
+	shader_reset();
+}

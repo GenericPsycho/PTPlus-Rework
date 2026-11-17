@@ -13,7 +13,7 @@
   "bbox_left": 22,
   "bbox_right": 87,
   "bbox_top": 35,
-  "bbox_bottom": 96,
+  "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -76,7 +76,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Peppino",
-    "path": "folders/Sprites/Player/Peppino.yy",
+    "name": "Cheesed",
+    "path": "folders/Sprites/Player/Peppino/Transformations/Cheesed.yy",
   },
 }

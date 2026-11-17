@@ -1,0 +1,1 @@
+visible = !instance_exists(obj_mainmenu_jumpscare);

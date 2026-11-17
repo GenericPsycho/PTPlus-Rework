@@ -1,3 +1,4 @@
+saveID = 0;
 selected = false;
 trigger = 0;
 depth = -31;
@@ -8,6 +9,7 @@ transspr = spr_menutv1_trans;
 confirmspr = spr_menutv1_confirm;
 clipspr = spr_menutv1_clip;
 selectedspr = spr_menutv1_selected;
+layerspr = spr_menutv1_layer;
 staticsnd = fmod_event_create_instance("event:/sfx/ui/tvstatic");
 surface = noone;
 surface_rebuild = true;

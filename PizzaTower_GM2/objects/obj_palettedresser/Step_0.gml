@@ -42,3 +42,8 @@ else
 {
 	alpha = Approach(alpha, 0, 0.1);
 }
+
+if (scr_isdoise() || scr_isdoise(obj_player1) || scr_isdoise(obj_player2) || scr_isdoise(obj_swapmodefollow))
+	image_index = global.swapmode ? 4 : 3;
+else
+	image_index = global.swapmode ? 0 : (obj_player1.ispeppino ? 1 : 2);

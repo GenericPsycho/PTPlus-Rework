@@ -28,10 +28,10 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"544fe2a6-7f62-4650-a724-5f6390f7c2fa",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c16c286a-6017-45e1-a7f9-d2694dad3a01",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ae593ef-f115-42d0-ab04-417a2faf4950",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"df4df3b1-5697-4b00-bca8-01b080b5d328",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0995f3e1-c66d-4358-9cee-1828aa74c247",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c35d406e-2bed-4215-b80e-a6f5b33fd741",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48f347a4-6965-4d91-a669-208f0d56b893",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"258de6bb-d0b1-431d-a0b5-e97511941f65",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -48,10 +48,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1d365e0f-488a-44b7-8d98-7f7ab8e748c5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"544fe2a6-7f62-4650-a724-5f6390f7c2fa","path":"sprites/spr_metalblockdebris/spr_metalblockdebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"76f69963-c6c8-4bd1-ac21-c586e755d5a0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c16c286a-6017-45e1-a7f9-d2694dad3a01","path":"sprites/spr_metalblockdebris/spr_metalblockdebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"1bc8a731-96d9-418e-9381-a6f52d5bdf4c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ae593ef-f115-42d0-ab04-417a2faf4950","path":"sprites/spr_metalblockdebris/spr_metalblockdebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"663deae3-a71b-4b86-80f2-97a27ac83842","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df4df3b1-5697-4b00-bca8-01b080b5d328","path":"sprites/spr_metalblockdebris/spr_metalblockdebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"477553e1-f3b6-4e47-8a3d-500b809f5c9b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0995f3e1-c66d-4358-9cee-1828aa74c247","path":"sprites/spr_metalblockdebris/spr_metalblockdebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"83699226-51dc-4375-89a6-5b6cf1bf981b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c35d406e-2bed-4215-b80e-a6f5b33fd741","path":"sprites/spr_metalblockdebris/spr_metalblockdebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5096db4d-d952-466d-945f-79e55ad0baa3","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"48f347a4-6965-4d91-a669-208f0d56b893","path":"sprites/spr_metalblockdebris/spr_metalblockdebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3cc97db2-b4ca-47df-9d95-7d5f26389b44","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"258de6bb-d0b1-431d-a0b5-e97511941f65","path":"sprites/spr_metalblockdebris/spr_metalblockdebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -70,7 +70,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a8e5d318-db5b-4e94-8d81-dc647f9357fb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c472911d-05e8-4c9d-80dc-c188cf87c840","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

@@ -8,7 +8,7 @@ uniform float palette_index;
 uniform sampler2D pattern_texture;
 uniform int pattern_enabled;
 uniform int pattern_solid_color;
-uniform float color_array[2];
+/* PATTERN */ uniform float color_array[4];
 uniform vec4 pattern_tex_data; // (x, y) = trimmed l/t offset | (z, w) = texture size
 uniform vec4 pattern_UVs;
 uniform vec4 sprite_UVs;
@@ -26,7 +26,7 @@ void main()
 			source = texture2D(palette_texture, vec2(palette_V, i));
 			
 			if (pattern_enabled == 1) {
-				for(int j = 0; j < 2; j += 1) {
+				/* PATTERN */ for(int j = 0; j < 4; j += 1) {
 					if (color_array[j] == floor((i - palette_UVs.y) * (1.0 / texel_size.y))) {
 						// convert to (0,0) and convert to integer size in texture page
 						vec2 pos = (v_vTexcoord - sprite_UVs.xy) * sprite_tex_data.zw;

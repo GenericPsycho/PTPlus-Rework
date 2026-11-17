@@ -28,9 +28,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1db73528-f9e7-4a31-8787-fef6b906c457",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"01d9d62a-3dfd-4653-b4ca-41b95109cc54",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d7f3b9d9-81dc-44be-a7a9-00462a51f7a2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8eac4008-7098-40c1-b0ea-d17c9b22a4b7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99a7d0ef-a8fb-4c82-914e-886f66ff7189",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5776b68-9683-4279-95c5-59cd6fb4386c",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -38,8 +38,8 @@
     "name": "bg_cityfire1",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 0.35,
-    "playbackSpeedType": 1,
+    "playbackSpeed": 10.0,
+    "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
     "length": 3.0,
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ae58d066-5280-4929-a13b-b35a9460b48b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1db73528-f9e7-4a31-8787-fef6b906c457","path":"sprites/bg_cityfire1/bg_cityfire1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"139efcf3-d91e-465a-b9a3-196a579636ce","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01d9d62a-3dfd-4653-b4ca-41b95109cc54","path":"sprites/bg_cityfire1/bg_cityfire1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"f3088581-9908-4398-b698-687d0ed77331","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7f3b9d9-81dc-44be-a7a9-00462a51f7a2","path":"sprites/bg_cityfire1/bg_cityfire1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2361671e-8d7b-4d0f-9c17-d2e4e4e8b5bc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8eac4008-7098-40c1-b0ea-d17c9b22a4b7","path":"sprites/bg_cityfire1/bg_cityfire1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"51313a0a-2515-4feb-8487-4e3450f708c2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"99a7d0ef-a8fb-4c82-914e-886f66ff7189","path":"sprites/bg_cityfire1/bg_cityfire1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"584ba8ab-5ea7-4549-adcf-562e798e2212","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5776b68-9683-4279-95c5-59cd6fb4386c","path":"sprites/bg_cityfire1/bg_cityfire1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -68,7 +68,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9d35ff24-3a30-41ef-af9f-337968935b4f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"03bc6040-899f-4408-bc94-238fdf2890df","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

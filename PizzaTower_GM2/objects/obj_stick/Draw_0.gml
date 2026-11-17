@@ -1,4 +1,15 @@
-draw_self();
+if noisette
+{
+	var _palinfo = get_noise_palette_info();
+	shader_set(global.Pal_Shader);
+	pattern_set(global.Base_Pattern_Color, sprite_index, image_index, image_xscale, image_yscale, _palinfo.patterntexture);
+	pal_swap_set(spr_noisettepalette, _palinfo.paletteselect, false);
+	draw_self();
+	pattern_reset();
+	shader_reset();
+}
+else
+	draw_self();
 if (drawing)
 {
 	draw_set_font(global.moneyfont);

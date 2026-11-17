@@ -84,6 +84,13 @@ add_option_toggle(audio_menu, 4, "option_unfocus", function(_unfocus)
 	obj_savesystem.ini_str_options = ini_close();
 	global.option_unfocus_mute = _unfocus;
 }).value = global.option_unfocus_mute;
+add_option_toggle(audio_menu, 5, "option_unfocus", function(_mute)
+{
+	ini_open_from_string(obj_savesystem.ini_str_options);
+	ini_write_real("Option", "mute_beatbox", _mute);
+	obj_savesystem.ini_str_options = ini_close();
+	global.option_mute_beatbox = _mute;
+}).value = global.option_mute_beatbox;
 array_push(menus, audio_menu);
 var video_menu = create_menu_fixed(menuids.video, menuanchors.left, 150, 40);
 add_option_press(video_menu, 0, "option_back", function()
@@ -227,6 +234,13 @@ add_option_toggle(game_menu, 6, "option_timer_speedrun", function(_speedrun)
 	obj_savesystem.ini_str_options = ini_close();
 	global.option_speedrun_timer = _speedrun;
 }).value = global.option_speedrun_timer;
+add_option_toggle(game_menu, 7, "option_unfocus", function(_unfocus)
+{
+	ini_open_from_string(obj_savesystem.ini_str_options);
+	ini_write_real("Option", "unfocus_pause", _unfocus);
+	obj_savesystem.ini_str_options = ini_close();
+	global.option_unfocus_pause = _unfocus;
+}).value = global.option_unfocus_pause;
 array_push(menus, game_menu);
 var controls_menu = create_menu_fixed(menuids.controls, menuanchors.left, 150, 40);
 add_option_press(controls_menu, 0, "option_back", function()

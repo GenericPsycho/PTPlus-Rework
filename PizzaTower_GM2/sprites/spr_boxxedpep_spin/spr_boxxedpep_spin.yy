@@ -80,7 +80,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Transformations",
-    "path": "folders/Sprites/Player/Peppino/Transformations.yy",
+    "name": "Boxxed",
+    "path": "folders/Sprites/Player/Peppino/Transformations/Boxxed.yy",
   },
 }

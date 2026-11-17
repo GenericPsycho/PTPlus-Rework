@@ -213,3 +213,8 @@ scr_pauseicon_add(spr_pauseicons, 8, 0, -12);
 alarm[1] = 1;
 
 PausedLayDat = [];
+
+
+unfocus = false;
+unfocus_pause = false;
+unfocus_draw = false;

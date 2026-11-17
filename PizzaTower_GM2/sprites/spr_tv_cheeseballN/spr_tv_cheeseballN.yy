@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"070abad2-e1a8-4d9e-8203-a5d149cb49ed",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b7cf9ba3-c7d9-4433-8f85-cfefaacfa9fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8c44703e-2cdc-4503-801a-7f6fcf998818",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd88a323-0890-4f8b-95cb-88b9ce0483a6",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"24ad5f80-3d9c-44a9-a1d1-1f977b57bb29","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"070abad2-e1a8-4d9e-8203-a5d149cb49ed","path":"sprites/spr_tv_cheeseballN/spr_tv_cheeseballN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"37314e9b-9d48-4536-a4b3-8524a33edd0b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7cf9ba3-c7d9-4433-8f85-cfefaacfa9fa","path":"sprites/spr_tv_cheeseballN/spr_tv_cheeseballN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bb8984a8-723a-43a1-9566-5bbc4d3fd3f0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c44703e-2cdc-4503-801a-7f6fcf998818","path":"sprites/spr_tv_cheeseballN/spr_tv_cheeseballN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"429d0385-507b-4cfb-abba-e45c88b07cf4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd88a323-0890-4f8b-95cb-88b9ce0483a6","path":"sprites/spr_tv_cheeseballN/spr_tv_cheeseballN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,7 +66,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a613eeb-d8f7-41da-a03e-f9827362e607","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4fbe8809-8cbe-49c5-8dad-7614d51460f4","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

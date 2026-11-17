@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48d7da92-34f2-44bc-9f56-93732abbe7c8",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"14c68e84-198b-406d-91de-59da2be43938",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db3a6e12-fdf4-464e-adb8-6b3b97e3858b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59df5e38-6c91-4229-b090-e8f710846b70",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"67822c40-dcec-4ad2-8351-4f6036678820","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"48d7da92-34f2-44bc-9f56-93732abbe7c8","path":"sprites/spr_newclothesN/spr_newclothesN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"78cd8c9c-7126-4a32-994c-59c336c49e2e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14c68e84-198b-406d-91de-59da2be43938","path":"sprites/spr_newclothesN/spr_newclothesN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"16948fb9-c69e-428a-9ce2-c94f271d64b7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db3a6e12-fdf4-464e-adb8-6b3b97e3858b","path":"sprites/spr_newclothesN/spr_newclothesN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dd565025-d8a6-4f03-a827-cab40484a576","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59df5e38-6c91-4229-b090-e8f710846b70","path":"sprites/spr_newclothesN/spr_newclothesN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,7 +66,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"76f569a5-c7f7-490b-84fe-60cc400b9667","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"15d7dccd-d4d4-43ff-b8e9-31aaf2604b9f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

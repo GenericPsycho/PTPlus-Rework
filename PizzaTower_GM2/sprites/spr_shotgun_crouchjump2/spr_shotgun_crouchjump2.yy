@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6720ef45-8f7d-4c0a-9bfd-95fb7a39d4a7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5180257b-835f-465c-9e4e-fbb88113fba0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ef25d4e-55b3-4ecd-b186-de787716a99c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c557b005-1b4b-49c8-87ee-31432687b767",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"287016fd-cc05-4289-ad91-6a871bc590e2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6720ef45-8f7d-4c0a-9bfd-95fb7a39d4a7","path":"sprites/spr_shotgun_crouchjump2/spr_shotgun_crouchjump2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a033b668-1643-4b8d-932c-eab3cc1c03d3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5180257b-835f-465c-9e4e-fbb88113fba0","path":"sprites/spr_shotgun_crouchjump2/spr_shotgun_crouchjump2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"47f8721a-071e-46c9-a99c-e329b79038d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ef25d4e-55b3-4ecd-b186-de787716a99c","path":"sprites/spr_shotgun_crouchjump2/spr_shotgun_crouchjump2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"edba6ae3-6ad5-4b51-a686-544ac2e6b296","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c557b005-1b4b-49c8-87ee-31432687b767","path":"sprites/spr_shotgun_crouchjump2/spr_shotgun_crouchjump2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,11 +66,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7063ed16-bf87-4546-834f-957db3503c2f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fa4d1517-d82f-4563-ad4f-a9f989b18076","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Peppino",
-    "path": "folders/Sprites/Player/Peppino.yy",
+    "name": "Shotgun",
+    "path": "folders/Sprites/Player/Peppino/Transformations/Shotgun.yy",
   },
 }

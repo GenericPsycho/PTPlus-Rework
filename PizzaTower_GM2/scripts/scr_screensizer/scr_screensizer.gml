@@ -188,6 +188,8 @@ function get_options()
 		var _;
 	
 	ini_open("saveData.ini");
+	
+	// OG Options
 	global.option_fullscreen = ini_read_real("Option", "fullscreen", 1);
 	global.option_resolution = ini_read_real("Option", "resolution", 1);
 	global.option_master_volume = ini_read_real("Option", "master_volume", 1);
@@ -202,6 +204,11 @@ function get_options()
 	global.option_unfocus_mute = ini_read_real("Option", "unfocus_mute", 0);
 	global.option_texfilter = ini_read_real("Option", "texfilter", 1);
 	global.option_vsync = ini_read_real("Option", "vsync", 0);
+	
+	// PLUS Options
+	global.option_mute_beatbox = ini_read_real("Option", "mute_beatbox", 0);
+	global.option_unfocus_pause = ini_read_real("Option", "unfocus_pause", 0);
+	
 	var lang = ini_read_string("Option", "lang", "none");
 	if (lang == "none")
 	{

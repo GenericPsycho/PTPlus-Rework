@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6c02d584-2202-4781-92cb-74c7a9f34177",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6dd7cfa9-8efa-45ae-a268-886e99c35c0a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0789f105-7902-42e7-93a7-8f8713c67642",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7da42e57-12d9-47e7-b9fe-066405bffe84",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d4ed0d42-c6be-4d60-96de-256cf37adb7e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6c02d584-2202-4781-92cb-74c7a9f34177","path":"sprites/spr_spacetravelcutscene/spr_spacetravelcutscene.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"98ba56b0-0986-4a64-83df-3358b87f4fb4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6dd7cfa9-8efa-45ae-a268-886e99c35c0a","path":"sprites/spr_spacetravelcutscene/spr_spacetravelcutscene.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d7158b8e-6acb-42ba-9892-cc2915ca953a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0789f105-7902-42e7-93a7-8f8713c67642","path":"sprites/spr_spacetravelcutscene/spr_spacetravelcutscene.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"03b3d906-cf83-4db9-ab3d-c5902c0db0b9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7da42e57-12d9-47e7-b9fe-066405bffe84","path":"sprites/spr_spacetravelcutscene/spr_spacetravelcutscene.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,7 +66,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"811d4255-4d2e-4e97-9c96-a434308f3cbe","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1d7149ce-74cc-4873-ae00-49801d4fffa2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

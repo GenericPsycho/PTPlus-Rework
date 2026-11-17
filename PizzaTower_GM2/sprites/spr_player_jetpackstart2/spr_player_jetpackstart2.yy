@@ -82,7 +82,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Peppino",
-    "path": "folders/Sprites/Player/Peppino.yy",
+    "name": "Jetpack",
+    "path": "folders/Sprites/Player/Peppino/Transformations/Jetpack.yy",
   },
 }

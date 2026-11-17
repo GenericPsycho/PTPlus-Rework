@@ -19,7 +19,7 @@ if (fade > 0)
 	}
 	draw_set_alpha(fade - 0.5);
 	draw_rectangle_color(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, c_white, c_white, c_white, c_white, false);
-	if (!instance_exists(obj_achievement_pause))
+	if (!instance_exists(obj_achievement_pause) && !unfocus_draw)
 	{
 		draw_set_alpha(fade);
 		draw_set_halign(fa_center);
@@ -62,6 +62,13 @@ if (fade > 0)
 			}
 			yy += (h + pad);
 		}
+	}
+	if (unfocus_draw)
+	{
+		draw_set_font(lang_get_font("bigfont"));
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_middle);
+		tdp_draw_text_color(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, lang_get_value("pause_unfocus"), c_white, c_white, c_white, c_white, fade);
 	}
 }
 draw_set_alpha(1);

@@ -4,7 +4,7 @@ if (instance_exists(obj_softlockcrash))
 }
 if (global.leveltosave == "exit")
 	global.leveltorestart = tower_finalhallway;
-if (!pause && instance_exists(obj_player1) && alarm[3] == -1 && obj_player1.key_start && room != Mainmenu && room != Finalintro && room != hub_loadingscreen && room != Endingroom && room != Creditsroom && room != Johnresurrectionroom && room != Longintro && room != Realtitlescreen && room != rank_room)
+if (!pause && instance_exists(obj_player1) && alarm[3] == -1 && (obj_player1.key_start || unfocus) && room != Mainmenu && room != Finalintro && room != hub_loadingscreen && room != Endingroom && room != Creditsroom && room != Johnresurrectionroom && room != Longintro && room != Realtitlescreen && room != rank_room)
 {
 	var _cutscenehandler = false;
 	with (obj_cutscene_handler)
@@ -390,6 +390,8 @@ if (!instance_exists(obj_loadingscreen))
 		vine_y = lerp(vine_y, vine_yend, a);
 		cursor_x = lerp(cursor_x, 20, 0.05);
 		cursor_y = lerp(cursor_y, -100, a);
+		if fade == 0
+			unfocus_draw = false
 	}
 }
 cursor_index += 0.35;

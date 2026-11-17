@@ -53,6 +53,8 @@ switch (state)
 		}
 		break;
 	case states.fall:
+		if (obj_player1.ispeppino)
+			obj_player1.isgustavo = (spr == spr_gustavo_intro);
 		image_index -= 0.35;
 		if (image_index <= 0)
 		{

@@ -15,7 +15,8 @@ function pal_swap_init_system_fix()
 		global.Pal_Map = ds_map_create();
 	}
 	global.Pattern_Texture_Indexed = noone;
-	global.Base_Pattern_Color = [1, 2];
+	/* PATTERN */ global.Base_Pattern_Color = [1, 2, 3, 4];
+	/* PATTERN */ //global.Base_Pattern_Color_Extra = [3, 4];
 	global.Pattern_Texture = shader_get_sampler_index(argument[0], "pattern_texture");
 	global.Pattern_Enable = shader_get_uniform(argument[0], "pattern_enabled");
 	global.Pattern_Tex_Data = shader_get_uniform(argument[0], "pattern_tex_data");

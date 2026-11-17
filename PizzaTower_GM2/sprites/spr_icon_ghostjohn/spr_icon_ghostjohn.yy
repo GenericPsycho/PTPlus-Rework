@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e55a5639-e18c-4898-8c31-2696c953f605",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a2683a8-1bd0-4f9a-a0fe-d9621b4d411c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc1ce55f-4b1e-4924-9dad-dd78e89acff2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"68484c66-d103-4e66-a133-b2ff9952f096",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a7f37450-3398-405b-9a93-518ae243d13b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e55a5639-e18c-4898-8c31-2696c953f605","path":"sprites/spr_icon_ghostjohn/spr_icon_ghostjohn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"bb92fb28-451e-4f26-aa32-39f9d2ac781e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a2683a8-1bd0-4f9a-a0fe-d9621b4d411c","path":"sprites/spr_icon_ghostjohn/spr_icon_ghostjohn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"17872f53-c552-4665-8ef8-98776554dd3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc1ce55f-4b1e-4924-9dad-dd78e89acff2","path":"sprites/spr_icon_ghostjohn/spr_icon_ghostjohn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0d83a929-30f6-4786-8157-a3fea44d0a60","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68484c66-d103-4e66-a133-b2ff9952f096","path":"sprites/spr_icon_ghostjohn/spr_icon_ghostjohn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,7 +66,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"64d209f9-e076-43f3-8c56-09bd87556aa9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24bfcdec-d582-46c2-838c-ed3fb02678b8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

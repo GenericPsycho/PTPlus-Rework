@@ -19,7 +19,21 @@ combofill_y = _cy;
 shader_set(global.Pal_Shader);
 pal_swap_set(spr_tv_combofillpalette, (!global.combodropped && global.prank_enemykilled) ? 2 : 1, false);
 draw_sprite(spr_tv_combobubblefill, combofill_index, combofill_x, combofill_y);
-pal_swap_set(spr_tv_combopalette, (obj_player1.ispeppino && !global.swapmode) ? 0 : 1, false);
+//pal_swap_set(spr_tv_combopalette, (obj_player1.ispeppino && !global.swapmode) ? 0 : 1, false);
+var _palswap = 0;
+if !global.swapmode
+{
+	_palswap = !obj_player1.ispeppino ? 2 : 1;
+	if (scr_isdoise(obj_player1) || obj_player1.isgustavo)
+		_palswap += 2;
+	pal_swap_set(spr_tv_combopalette, _palswap, false);
+}
+else {
+	_palswap = (obj_player1.isgustavo || obj_player2.isgustavo || obj_swapmodefollow.isgustavo) ? 2 : 0;
+	if (scr_isdoise(obj_player1) || scr_isdoise(obj_player2) || scr_isdoise(obj_swapmodefollow))
+		_palswap += 1;
+	pal_swap_set(spr_tv_combopalette_swap, _palswap, false);
+}
 lang_draw_sprite(spr_tv_combobubble, 0, _cx, _cy);
 draw_set_font(global.combofont2);
 draw_set_halign(fa_left);
@@ -42,6 +56,7 @@ if (room != rm_blank)
 	pal_swap_set(spr_palette, paletteselect, false);
 	draw_sprite_ext(sprite_index, image_index, tv_x + collect_x, tv_y + collect_y + hud_posY, 1, 1, 0, c_white, alpha);
 	var _red = global.noisejetpack && (obj_player1.ispeppino || obj_player1.noisepizzapepper);
+	var _pal = global.swapmode ? 4 : (!obj_player.ispeppino ? (scr_isdoise() ? 3 : 1) : (obj_player.isgustavo ? 2 : 0));
 	if (_red)
 	{
 		pal_swap_set(spr_palette, 2, false);
@@ -49,8 +64,8 @@ if (room != rm_blank)
 	}
 	if (!obj_player1.ispeppino || global.swapmode)
 	{
-		pal_swap_set(spr_tv_palette, 1, false);
-		var spr = spr_tv_empty;
+		pal_swap_set(spr_tv_palette, _pal, false);
+		var spr = global.swapmode ? spr_tv_emptycolor : spr_tv_empty;
 		if (sprite_index == spr_tv_open)
 		{
 			spr = sprite_index;
@@ -59,8 +74,8 @@ if (room != rm_blank)
 	}
 	if (state == states.whitenoise)
 	{
-		pal_swap_set(spr_tv_palette, !obj_player.ispeppino || global.swapmode, false);
-		draw_sprite(spr_tv_whitenoise, tv_trans, tv_x + collect_x, tv_y + collect_y + hud_posY);
+		pal_swap_set(spr_tv_palette, _pal, false);
+		draw_sprite(global.swapmode ? spr_tv_whitenoisecolor : spr_tv_whitenoise, tv_trans, tv_x + collect_x, tv_y + collect_y + hud_posY);
 	}
 	if (sprite_index == spr_tv_exprheatN)
 	{

@@ -1,4 +1,5 @@
 depth = 100;
+image_speed = 0;
 player_palettes = [];
 player_palettes[0] = [
   ["classic", true, 1],

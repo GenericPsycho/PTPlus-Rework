@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d51f9b12-103d-4440-b1ec-7a9f92abefe8",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"27ceb4a0-2a7b-46d8-90d6-76569485d92d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5d4e92cb-b053-4915-afbf-7253af73b04a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"63e19591-4f44-474d-a456-67d80f761e54",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"bf1f7aac-9564-462f-83f3-8942d5df95b0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d51f9b12-103d-4440-b1ec-7a9f92abefe8","path":"sprites/spr_gate_doise/spr_gate_doise.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"f9241d44-d819-4622-84b4-73c7ec4bbce9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"27ceb4a0-2a7b-46d8-90d6-76569485d92d","path":"sprites/spr_gate_doise/spr_gate_doise.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"152d4dec-c5e7-429c-8ee5-9e295deb17a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d4e92cb-b053-4915-afbf-7253af73b04a","path":"sprites/spr_gate_doise/spr_gate_doise.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c6f89432-320a-459c-b5a3-2b7a42f02924","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"63e19591-4f44-474d-a456-67d80f761e54","path":"sprites/spr_gate_doise/spr_gate_doise.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,7 +66,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e3066327-2f2e-4dbd-91c7-272cf5bcfba1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a008a14-4e96-44e6-bec6-450a8996ddc1","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

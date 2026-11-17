@@ -129,7 +129,8 @@ if (obj_player.state != states.gameover)
 		default:
 			perc = _score / global.crank;
 	}
-	var t = spr_h * perc;
+	percSet = (perc > 0 && rank_scale <= 1) ? Approach(percSet, perc, 0.1) : 0;
+	var t = spr_h * percSet;
 	var top = spr_h - t;
 	draw_sprite_part(spr_ranks_hudfill, rank_ix, 0, top, spr_w, spr_h - top, rx - spr_xo, (ry - spr_yo) + top);
 	draw_set_valign(fa_top);

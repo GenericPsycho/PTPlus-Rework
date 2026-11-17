@@ -28,9 +28,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d997105-fce7-4a4a-a822-d5d3a37329b7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c64a9b8a-31a3-449d-93af-92b72bb6e709",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cfc3d30f-abfa-4a7d-94d9-8db861929f31",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"88360de4-3559-419e-b8d3-80c41a67804f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2be10f8c-c1c6-40d8-902a-ddbd31775aef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8a38244d-f404-4bfb-90da-0c5f6f3d81bc",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4ce43bde-97bf-4fc7-873c-ab9a349547bc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d997105-fce7-4a4a-a822-d5d3a37329b7","path":"sprites/spr_shotgun_fall/spr_shotgun_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"0f7499d2-fee9-4771-ba5b-3aa3aabe0c2d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c64a9b8a-31a3-449d-93af-92b72bb6e709","path":"sprites/spr_shotgun_fall/spr_shotgun_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"f6c006b4-964b-43ba-875f-bb820047e523","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cfc3d30f-abfa-4a7d-94d9-8db861929f31","path":"sprites/spr_shotgun_fall/spr_shotgun_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"aa721c55-38f8-40bd-975d-77fdb56051b3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88360de4-3559-419e-b8d3-80c41a67804f","path":"sprites/spr_shotgun_fall/spr_shotgun_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d0e26c23-75c1-49d7-92b3-9e2f94c361c7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2be10f8c-c1c6-40d8-902a-ddbd31775aef","path":"sprites/spr_shotgun_fall/spr_shotgun_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"69bed9c8-8415-49e7-b90c-fe0eac2eeb3b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8a38244d-f404-4bfb-90da-0c5f6f3d81bc","path":"sprites/spr_shotgun_fall/spr_shotgun_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -68,11 +68,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d11685d7-d043-49da-9a35-109e06857b92","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5978ddeb-6ec5-4afa-bfc0-877f7ab323ab","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Peppino",
-    "path": "folders/Sprites/Player/Peppino.yy",
+    "name": "Shotgun",
+    "path": "folders/Sprites/Player/Peppino/Transformations/Shotgun.yy",
   },
 }

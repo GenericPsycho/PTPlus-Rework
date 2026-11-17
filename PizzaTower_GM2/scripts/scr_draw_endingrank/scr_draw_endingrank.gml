@@ -4,7 +4,17 @@ function scr_draw_endingrank()
 	{
 		lang_draw_sprite(spr_rank_wow_text, image_index, x, y);
 	}
+	
+	//draw_self();
+	shader_set(global.Pal_Shader);
+	var _palinfo = global.swapmode || !obj_player1.ispeppino ? get_noise_palette_info() : get_pep_palette_info();
+	var _palspr = global.swapmode || !obj_player1.ispeppino ? spr_noisepalette : spr_peppalette;
+	pattern_set(global.Base_Pattern_Color, sprite_index, image_index, image_xscale, image_yscale, _palinfo.patterntexture);
+	pal_swap_set(_palspr, _palinfo.paletteselect, false);
 	draw_self();
+	pattern_reset();
+	shader_reset();
+	
 	var spr = noone;
 	switch (sprite_index)
 	{

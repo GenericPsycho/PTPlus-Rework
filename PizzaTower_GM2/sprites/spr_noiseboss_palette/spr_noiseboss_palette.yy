@@ -13,13 +13,13 @@
   "bbox_left": 0,
   "bbox_right": 2,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 24,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
   "width": 3,
-  "height": 16,
+  "height": 25,
   "textureGroupId": {
     "name": "playergroup",
     "path": "texturegroups/playergroup",
@@ -28,7 +28,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d0552ff0-c5a2-4c53-bdf1-44a8d7aeb863",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aba4a0f5-0d4b-4da5-8468-ceb0ab07d3ae",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b892db1a-c36d-44ac-bca5-d073cbc1b15f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d0552ff0-c5a2-4c53-bdf1-44a8d7aeb863","path":"sprites/spr_noiseboss_palette/spr_noiseboss_palette.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ce2356f5-18da-4282-a3d0-a659d99927bd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aba4a0f5-0d4b-4da5-8468-ceb0ab07d3ae","path":"sprites/spr_noiseboss_palette/spr_noiseboss_palette.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,7 +64,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"070252e4-9cdc-41b4-b311-f05c65a3f0ca","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6e8c200f-ead4-49f0-9640-d237b96dcaa5","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

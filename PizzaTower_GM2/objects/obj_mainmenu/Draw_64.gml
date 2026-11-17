@@ -9,9 +9,10 @@ draw_set_color(c_white);
 draw_set_alpha(1);
 if (state == states.titlescreen || (state == states.transitioncutscene && dark))
 {
-	draw_sprite(spr_menudark, 0, 0, 0);
+	draw_sprite(spr_menudark, instance_exists(obj_mainmenu_jumpscare) ? 1 : 0, 0, 0);
 }
 draw_set_alpha(extrauialpha);
+/*
 var qx = 0;
 var qy = 0;
 var cx = camera_get_view_x(view_camera[0]);
@@ -27,6 +28,7 @@ if (instance_exists(obj_fadeout))
 	draw_set_color(c_white);
 }
 draw_set_alpha(1);
+*/
 if (state == states.bombdelete)
 {
 	draw_set_alpha(0.5);

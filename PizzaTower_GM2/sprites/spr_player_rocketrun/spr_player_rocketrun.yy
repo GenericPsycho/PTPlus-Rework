@@ -74,7 +74,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Peppino",
-    "path": "folders/Sprites/Player/Peppino.yy",
+    "name": "Rocket",
+    "path": "folders/Sprites/Player/Peppino/Transformations/Rocket.yy",
   },
 }

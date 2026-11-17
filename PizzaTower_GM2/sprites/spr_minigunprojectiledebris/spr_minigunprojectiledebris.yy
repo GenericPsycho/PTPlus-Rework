@@ -28,9 +28,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bd74df59-04b3-46a3-8170-398d3a4246bc",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cbf37366-f4b9-4784-a790-ec7b8d162ba4",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"56b4b97e-40cd-4c69-94ab-4953f7e85e9a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9deb51ca-86e7-4f6c-95e6-000d890a72fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d3353222-9478-46e6-bcd0-b78ec6a3392a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e64df29e-99c2-4aac-a35d-02e033811aa7",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7d2e099c-37f7-4556-83a6-5dccd3bc6b78","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd74df59-04b3-46a3-8170-398d3a4246bc","path":"sprites/spr_minigunprojectiledebris/spr_minigunprojectiledebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"3c34aa58-a09b-4f2d-b153-0273c6b34e01","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cbf37366-f4b9-4784-a790-ec7b8d162ba4","path":"sprites/spr_minigunprojectiledebris/spr_minigunprojectiledebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"6da086d6-42b9-4d0c-8751-15529e77ab3b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"56b4b97e-40cd-4c69-94ab-4953f7e85e9a","path":"sprites/spr_minigunprojectiledebris/spr_minigunprojectiledebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"49109a3b-ee05-468f-818e-16fe2c2147df","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9deb51ca-86e7-4f6c-95e6-000d890a72fa","path":"sprites/spr_minigunprojectiledebris/spr_minigunprojectiledebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ebdb35a8-d872-40db-9e89-b5bed90391fc","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3353222-9478-46e6-bcd0-b78ec6a3392a","path":"sprites/spr_minigunprojectiledebris/spr_minigunprojectiledebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f51cdc3d-cc90-426c-9289-56ceaf5ae807","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e64df29e-99c2-4aac-a35d-02e033811aa7","path":"sprites/spr_minigunprojectiledebris/spr_minigunprojectiledebris.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -68,7 +68,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f10bbf11-513e-45a0-a837-f70831612d60","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2ac3b057-9954-4c28-93a3-7fa04b62386f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

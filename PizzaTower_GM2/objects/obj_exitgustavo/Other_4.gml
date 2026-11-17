@@ -28,5 +28,6 @@ if (!obj_player1.ispeppino || global.swapmode)
 	if (stick)
 	{
 		sprite_index = spr_noisette_fall;
+		spr_palette = spr_noisettepalette;
 	}
 }

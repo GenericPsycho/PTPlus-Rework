@@ -5,6 +5,7 @@ transspr = spr_menutv3_trans;
 confirmspr = spr_menutv3_confirm;
 selectedspr = spr_menutv3_selected;
 clipspr = spr_menutv3_clip;
+layerspr = spr_menutv3_layer;
 noisescale = 1;
 noisexoffset = 76;
 noiseyoffset = 115;

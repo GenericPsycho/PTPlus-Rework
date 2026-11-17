@@ -28,9 +28,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9e319b87-7ab3-474b-b983-b1a6dfe83c22",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b4bc5d76-b800-4906-ab86-0b143f774fb0",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d03a2fe-762d-4dae-b14d-d4b8fd6b89a9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"edd540cd-34fc-43d3-b981-31fb1a07d1d4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"79f52593-5234-491b-afe1-0929481216d7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"687d2b50-d6b0-4c90-b57e-0d3d0fcd2b09",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ff2d702f-d7a7-45d6-b997-50055a0c08ba","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e319b87-7ab3-474b-b983-b1a6dfe83c22","path":"sprites/spr_knightpep_fall/spr_knightpep_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"30e29cd8-3f31-4775-93bb-39672a4855e8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b4bc5d76-b800-4906-ab86-0b143f774fb0","path":"sprites/spr_knightpep_fall/spr_knightpep_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"e8ebe330-b8f6-4217-9add-aa639b0abc0a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d03a2fe-762d-4dae-b14d-d4b8fd6b89a9","path":"sprites/spr_knightpep_fall/spr_knightpep_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e29034ad-edb7-4803-86f6-cf29a56b6853","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edd540cd-34fc-43d3-b981-31fb1a07d1d4","path":"sprites/spr_knightpep_fall/spr_knightpep_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b10dd010-ec19-440e-ad32-bef864855b5b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79f52593-5234-491b-afe1-0929481216d7","path":"sprites/spr_knightpep_fall/spr_knightpep_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9488f40c-de0a-4fd8-9a49-29f66345609c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"687d2b50-d6b0-4c90-b57e-0d3d0fcd2b09","path":"sprites/spr_knightpep_fall/spr_knightpep_fall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -68,11 +68,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a12f9b8-acc5-4a21-957d-2ed45246a6e0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"77426cef-85d7-432c-b161-10bc0e776553","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Transformations",
-    "path": "folders/Sprites/Player/Peppino/Transformations.yy",
+    "name": "Knight",
+    "path": "folders/Sprites/Player/Peppino/Transformations/Knight.yy",
   },
 }

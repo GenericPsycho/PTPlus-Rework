@@ -56,6 +56,7 @@ function scr_playerreset(_stop_music = true)
 		camzoom = 1;
 		lock = false;
 		state = states.normal;
+		percSet = 0;
 	}
 	with (obj_swapmodefollow)
 	{

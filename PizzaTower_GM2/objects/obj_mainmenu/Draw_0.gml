@@ -18,8 +18,9 @@ with (obj_explosioneffect)
 shader_set(global.Pal_Shader);
 var _x = SCREEN_WIDTH * 0.50625;
 var _y = y;
-var pal = obj_player1.paletteselect;
-var tex = noone;
+//var pal = obj_player1.paletteselect;
+var pal = global.game[0].palette;
+var tex = global.game[0].palettetexture;
 if (currentselect != -1)
 {
 	pal = global.game[currentselect].palette;
@@ -38,6 +39,8 @@ pal_swap_set(spr_peppalette, pal, false);
 if (!pep_debris)
 {
 	draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+	if (state == states.titlescreen || (state == states.transitioncutscene && dark))
+		draw_sprite_ext(spr_titlepep_forward_dark, image_index, SCREEN_WIDTH * 0.50625, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 }
 if (tex != noone)
 {
@@ -120,22 +123,47 @@ for (i = 0; i < array_length(games); i++)
 	}
 }
 draw_set_alpha(extrauialpha);
-if (noise_unlocked)
+if (noise_unlocked && currentselect != -1)
 {
-	var icon = spr_mainmenu_pepicon;
+	var _doise = global.gameN[currentselect].palette == 17;
+	
+	var icon_main = spr_mainmenu_pepicon;
+	var icon_arrow = _doise ? spr_mainmenu_pepdoiseicon_arrow : spr_mainmenu_pepicon_arrow;
+	var icon_spr = spr_peppalette;
+	var icon_pal = global.game[currentselect].palette;
+	var icon_tex = global.game[currentselect].palettetexture;
+	var icon_extra = noone;
 	if (shownoise)
 	{
-		icon = spr_mainmenu_noiseicon;
-		if (swap_unlocked)
-		{
-			icon = spr_mainmenu_noiseswapicon;
-		}
+		icon_main = spr_mainmenu_noiseicon;
+		icon_arrow = swap_unlocked ? spr_mainmenu_noiseswapicon_arrow : spr_mainmenu_noiseicon_arrow;
+		icon_spr = spr_noisepalette;
+		icon_pal = global.gameN[currentselect].palette;
+		icon_tex = global.gameN[currentselect].palettetexture;
 		if (showswap)
 		{
-			icon = spr_mainmenu_swapicon;
+			icon_main = spr_mainmenu_swapicon;
+			icon_arrow = _doise ? spr_mainmenu_swapdoiseicon_arrow : spr_mainmenu_swapicon_arrow;
+			icon_spr = spr_peppalette;
+			icon_pal = global.gameN[currentselect].palette_player2;
+			icon_tex = global.gameN[currentselect].palettetexture_player2;
+			icon_extra = [spr_mainmenu_swapicon_noise, spr_noisepalette, global.gameN[currentselect].palette, global.gameN[currentselect].palettetexture];
 		}
 	}
-	draw_sprite(icon, game_icon_index, status_x - 100, status_y + 195 + game_icon_y);
+	
+	draw_sprite(icon_arrow, game_icon_index, status_x - 100, status_y + 195 + game_icon_y);
+	shader_set(global.Pal_Shader);
+	pattern_set(global.Base_Pattern_Color, icon_main, 0, image_xscale, image_yscale, icon_tex);
+	pal_swap_set(icon_spr, icon_pal, false);
+	draw_sprite(icon_main, game_icon_index, status_x - 100, status_y + 195 + game_icon_y);
+	if icon_extra != noone
+	{
+		pattern_set(global.Base_Pattern_Color, icon_extra[0], 0, image_xscale, image_yscale, icon_extra[3]);
+		pal_swap_set(icon_extra[1], icon_extra[2], false);
+		draw_sprite(icon_extra[0], game_icon_index, status_x - 100, status_y + 195 + game_icon_y);
+	}
+	pattern_reset();
+	shader_reset();
 }
 lang_draw_sprite(spr_deletefile, 0, deletefile_x, deletefile_y);
 var dal = 1;
@@ -152,4 +180,8 @@ if (currentselect != -1)
 	}
 }
 scr_draw_text_arr(deletefile_x - 67, deletefile_y, taunt_key, c_white, dal);
+
+lang_draw_sprite(spr_quitgame, 0, 0, 0);
+scr_draw_text_arr(50, 100, grab_key);
+
 draw_set_alpha(1);

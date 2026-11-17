@@ -94,7 +94,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Noise",
-    "path": "folders/Sprites/Player/Noise.yy",
+    "name": "Barrel",
+    "path": "folders/Sprites/Player/Noise/Transformations/Barrel.yy",
   },
 }

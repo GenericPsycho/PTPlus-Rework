@@ -1,8 +1,18 @@
 if (obj_player1.ispeppino && !global.swapmode)
 {
 	draw_sprite(spr_mrmooney_house, 0, x, y);
+	draw_self();
 }
-draw_self();
+else
+{
+	var _palinfo = get_noise_palette_info();
+	shader_set(global.Pal_Shader);
+	pattern_set(global.Base_Pattern_Color, sprite_index, image_index, image_xscale, image_yscale, _palinfo.patterntexture);
+	pal_swap_set(spr_noisettepalette, _palinfo.paletteselect, false);
+	draw_self();
+	pattern_reset();
+	shader_reset();
+}
 if (showmoney)
 {
 	draw_set_font(global.moneyfont);

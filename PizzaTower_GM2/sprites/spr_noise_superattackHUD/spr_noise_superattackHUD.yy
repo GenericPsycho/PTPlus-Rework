@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"618b7cf5-a10f-4a44-9c4b-9877109a329c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9099bca5-1000-4315-8c54-66a4e8af0ca1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f49b2aeb-8939-49db-a250-5bbb52559c91",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"666660d7-3d32-4d8c-9965-1ba2925ad897",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fa08a9d8-8a99-412c-bce0-0e52e11a6f9a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"618b7cf5-a10f-4a44-9c4b-9877109a329c","path":"sprites/spr_noise_superattackHUD/spr_noise_superattackHUD.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d29bc36c-0506-409a-8181-6df150593a3a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9099bca5-1000-4315-8c54-66a4e8af0ca1","path":"sprites/spr_noise_superattackHUD/spr_noise_superattackHUD.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"26f3923c-c67b-4abb-90f9-6ae141601378","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f49b2aeb-8939-49db-a250-5bbb52559c91","path":"sprites/spr_noise_superattackHUD/spr_noise_superattackHUD.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"adaea2e3-f2f4-4626-b5a9-f9a0beef0a46","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"666660d7-3d32-4d8c-9965-1ba2925ad897","path":"sprites/spr_noise_superattackHUD/spr_noise_superattackHUD.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,7 +66,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"741456c8-4351-48e3-b40c-5899bd9637c0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c521506f-2578-4070-9fca-ca7b9f68144f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
